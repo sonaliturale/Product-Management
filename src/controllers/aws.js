@@ -45,4 +45,5 @@ const myAws = async (req, res) => {
 };
 
 
-module.exports = { uploadFile, myAws };
+module.exports = { uploadFile, myAws }
+

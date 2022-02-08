@@ -33,3 +33,6 @@ router.post('/users/:userId/orders', myMiddleware.checkLogin, validator.authoriz
 router.put('/users/:userId/orders', myMiddleware.checkLogin, validator.checkOrder, orderController.cancelOrder) 
 
 module.exports = router;
+
+
+

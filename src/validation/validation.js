@@ -333,7 +333,6 @@ const checkProductUpdate = async (req, res, next) => {
     }
 }
 
-
 const authorizer = async (req, res, next) => {
     try {
         let paramsId = req.params.userId
@@ -387,4 +386,5 @@ const checkOrder = async (req, res, next) => {
 }
 
 
-module.exports = { checkUser, checkUserupdate, checkProduct, checkProductUpdate, isValidRequestBody, authorizer, checkOrder }
+module.exports = { checkUser, checkUserupdate, checkProduct, checkProductUpdate, isValidRequestBody, authorizer, checkOrder}
+

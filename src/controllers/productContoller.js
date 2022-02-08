@@ -124,4 +124,3 @@ const deleteProductById = async (req, res) => {
 
 module.exports = { createProduct, productByQuery, productByParams, updateProductById, deleteProductById }
 
-
